@@ -24,3 +24,4 @@ jobs:
           echo "Flujo de trabajo: ${{ github.workflow }}"
           echo "ID de ejecución: ${{ github.run_id }}"
           echo "Número de ejecución: ${{ github.run_number }}"
+          echo "Enable debug mode: ${{ inputs.debug }}"
